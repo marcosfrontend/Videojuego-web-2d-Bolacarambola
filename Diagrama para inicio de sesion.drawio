@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" modified="2023-08-10T22:57:36.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GUWkrz8zXqRsIsyY1a1j" version="21.6.8" type="github">
+  <diagram name="Página-1" id="3eu9f9dPfMEIOtnIr1yZ">
+    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Empleado&lt;/font&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Sistema&lt;/font&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Cliente&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="jtfRi_CHVhnpjtjgm8J2-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-25" target="jtfRi_CHVhnpjtjgm8J2-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="280" as="sourcePoint" />
+            <mxPoint x="192.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-1" target="jtfRi_CHVhnpjtjgm8J2-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="251.9565217391305" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-7" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-22" target="jtfRi_CHVhnpjtjgm8J2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="115" as="sourcePoint" />
+            <mxPoint x="400" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-1" target="jtfRi_CHVhnpjtjgm8J2-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="230" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-25" target="jtfRi_CHVhnpjtjgm8J2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-25" target="jtfRi_CHVhnpjtjgm8J2-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="265" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.413;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-22" target="jtfRi_CHVhnpjtjgm8J2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-22" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Iniciar sesion&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-23" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar datos&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.588;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-25" target="jtfRi_CHVhnpjtjgm8J2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-25" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Pedir datos&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-26" value="nombres" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-27" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Apellidos&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-28" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;numero&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-29" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Correo electronico&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-31" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Base de datos&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="73.34" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-32" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.409;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-31" target="jtfRi_CHVhnpjtjgm8J2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtfRi_CHVhnpjtjgm8J2-33" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jtfRi_CHVhnpjtjgm8J2-31" target="jtfRi_CHVhnpjtjgm8J2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="510" as="sourcePoint" />
+            <mxPoint x="510" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="470" />
+              <mxPoint x="640" y="390" />
+              <mxPoint x="640" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
